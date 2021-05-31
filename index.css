@@ -1,0 +1,163 @@
+.time-bomb {
+  position: fixed;
+  top: 44px;
+  left: 0;
+  bottom: 0;
+  width: 318px;
+  display: block;
+  overflow: hidden;
+}
+
+.tb-roulette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 58px;
+  background-color: #171717;
+}
+
+.time-header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  height: 44px;
+  border: none;
+  background-color: rgba(54, 57, 63, 0.65);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 5%), 0 1px 3px rgb(0 0 0 / 7%);
+  backdrop-filter: saturate(180%) blur(30px);
+  z-index: 2004;
+}
+
+.tb-levels-rl {
+  position: relative;
+  padding: 12px 0 30px 0;
+}
+
+.burg {
+  font-size: 23px;
+  color: aliceblue;
+}
+
+.logo-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 0 0 8px 0;
+  position: relative;
+}
+
+.th-left {
+  display: flex;
+  position: relative;
+  padding: 5px 25px;
+}
+
+.lv-burg {
+  margin: 0 20px 0 0;
+}
+
+.tlr-item {
+  position: relative;
+  display: flex;
+  width: 58px;
+  list-style: none;
+  justify-content: center;
+  margin: 0 0 8px 0;
+}
+
+.tlr-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.tb-circus {
+  position: absolute;
+  top: 0;
+  left: 58px;
+  right: 0;
+  bottom: 53px;
+  padding: 0;
+  background-color: rgb(31, 32, 36);
+}
+
+.tb-profile {
+  background-color: rgb(31, 32, 36);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 260px;
+  height: 53px;
+}
+
+.time-scrollable {
+  position: relative;
+  display: block;
+  margin-left: 318px;
+  background-color: rgba(47, 49, 54, 1);
+  height: 924px;
+}
+
+.tb-genre-block {
+  padding: 18px 0 8px 0;
+  margin: 0 18px;
+  border-bottom: 1px solid;
+}
+
+.tbge-title-txt {
+  font-size: 15px;
+  line-height: 19px;
+  max-width: 190px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #ededed;
+  font-weight: 500;
+}
+
+.tb-genre-flex {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tbge-bnor {
+  position: relative;
+  width: 26px;
+  flex-shrink: 0;
+  margin: 1px 8px 0 0;
+}
+
+.tbge-bnor-img {
+  display: block;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.tbge-title {
+  position: relative;
+  display: block;
+}
+.level-group-2,
+.level-group-3 {
+  display: none;
+}
+
+.tls-item-block-1 {
+  margin: 10px 15px 1px 15px;
+}
+.tls-item-block-2 {
+  margin: 0 15px 1px 15px;
+}
+
+.tls-item-txt {
+  font-size: 25px;
+  position: relative;
+  align-items: center;
+  color: #ededed;
+  font-weight: 600;
+}
